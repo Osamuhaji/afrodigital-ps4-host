@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Afrodigital PS4 Host</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <main class="wrap">
+    <header class="hero">
+      <div class="brand-mark">AD</div>
+      <div>
+        <h1>AFRODIGITAL</h1>
+        <p>PS4 HOST • RESEARCH / TEST BUILD</p>
+      </div>
+    </header>
+
+    <section class="card">
+      <div class="row">
+        <div>
+          <span class="label">Console</span>
+          <strong>PlayStation 4</strong>
+        </div>
+        <div>
+          <span class="label">Browser</span>
+          <strong id="browser">Checking…</strong>
+        </div>
+      </div>
+
+      <label class="label" for="firmware">Firmware</label>
+      <select id="firmware">
+        <option value="">Select firmware</option>
+        <option>7.00</option><option>7.01</option><option>7.02</option>
+        <option>7.50</option><option>8.00</option><option>8.50</option>
+        <option>9.00</option><option>9.03</option><option>9.60</option>
+        <option>11.00</option><option>11.02</option>
+      </select>
+
+      <div class="actions">
+        <button id="prepare">Prepare Host</button>
+        <button id="clear" class="secondary">Clear Log</button>
+      </div>
+
+      <div id="status" class="status">Ready.</div>
+      <pre id="log">Afrodigital Host initialized.
+Select your firmware and press “Prepare Host”.</pre>
+    </section>
+
+    <section class="card info">
+      <h2>About this build</h2>
+      <p>
+        This is a custom host interface intended for your own local research/testing.
+        The exploit implementation is deliberately kept separate and is not included
+        in this starter package.
+      </p>
+      <p class="credits">Respect the original project's license and preserve its credits when integrating an open-source component.</p>
+    </section>
+
+    <footer>AFRODIGITAL • Tanzania • Custom Host</footer>
+  </main>
+  <script src="js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+*{box-sizing:border-box}
+:root{font-family:Arial,Helvetica,sans-serif;color:#fff;background:#090909}
+body{margin:0;min-height:100vh;background:radial-gradient(circle at top,#3b0000 0,#120000 35%,#070707 75%)}
+.wrap{width:min(760px,94%);margin:0 auto;padding:32px 0}
+.hero{display:flex;align-items:center;gap:16px;margin-bottom:22px}
+.brand-mark{width:58px;height:58px;border-radius:14px;background:#e50914;display:grid;place-items:center;font-weight:900;font-size:22px;box-shadow:0 8px 30px #e5091438}
+h1{margin:0;font-size:28px;letter-spacing:2px}
+.hero p{margin:4px 0 0;color:#bbb;font-size:12px;letter-spacing:1px}
+.card{background:#111;border:1px solid #292929;border-radius:18px;padding:22px;margin:14px 0;box-shadow:0 15px 45px #0008}
+.row{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-bottom:20px}
+.label{display:block;color:#999;font-size:12px;text-transform:uppercase;letter-spacing:1px;margin-bottom:7px}
+strong{font-size:16px}
+select{width:100%;padding:13px;border-radius:10px;border:1px solid #333;background:#0b0b0b;color:#fff;font-size:15px}
+.actions{display:flex;gap:10px;margin:16px 0}
+button{border:0;border-radius:10px;padding:13px 18px;background:#e50914;color:white;font-weight:800;cursor:pointer}
+button.secondary{background:#292929}
+.status{padding:11px 13px;border-radius:10px;background:#1a1a1a;color:#ddd;margin-bottom:10px}
+pre{white-space:pre-wrap;min-height:140px;margin:0;padding:14px;background:#050505;border-radius:10px;color:#cfcfcf;font-size:12px;line-height:1.55;overflow:auto}
+h2{margin-top:0}
+.info p{color:#bbb;line-height:1.6}
+.credits{font-size:12px}
+footer{text-align:center;color:#777;font-size:11px;margin-top:24px}
+@media(max-width:520px){.row{grid-template-columns:1fr}.actions{flex-direction:column}}
